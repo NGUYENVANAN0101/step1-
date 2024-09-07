@@ -1,0 +1,84 @@
+/* reset margin, padding */
+body {
+  margin: 0 !important;
+  /*ghi de tat ca cac phan tu khac */
+  padding: 0 !important;
+}
+
+.red {
+  border: 2px red solid;
+}
+
+.blue {
+  border: 1px solid blue;
+}
+
+.banner {
+  height: 500px;
+  background: url(./banner.jpg) center center no-repeat;
+  padding: 20px;
+}
+.banner .about-sign-in {
+  height: 80px;
+  width: 100%;
+  text-align: end;
+}
+.banner .about-sign-in .about, .banner .about-sign-in .sign-in {
+  text-decoration: none;
+  margin-top: 20px;
+  padding: 7px;
+  display: inline-block;
+  text-transform: uppercase;
+  /*viet hoa*/
+  color: black;
+}
+.banner .about-sign-in .sign-in {
+  margin-right: 100px;
+  margin-left: 20px;
+  border: 2px solid green;
+  border-radius: 20px;
+  color: green;
+}
+.banner .logo {
+  background: url(./hapoERP.png) center center no-repeat;
+  height: 100px;
+  margin-top: 50px;
+}
+.banner .content-center {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0 100px 0;
+}
+.banner .content-center .icon-left, .banner .content-center .icon-center, .banner .content-center .icon-right {
+  display: flex;
+  flex-direction: column;
+  height: 52px;
+  width: 48px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.banner .content-center .icon-left img, .banner .content-center .icon-center img, .banner .content-center .icon-right img {
+  width: 80px;
+  height: 80px;
+}
+.banner .content-center .icon-left span, .banner .content-center .icon-center span, .banner .content-center .icon-right span {
+  display: block;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.banner .text {
+  text-align: center;
+}
+.banner .btn-start-now {
+  text-align: center;
+}
+.banner button {
+  border-radius: 20px;
+  text-transform: uppercase;
+  background-color: #10db97;
+  color: aliceblue;
+  padding: 10px 20px 10px 20px;
+  margin-top: 40px;
+  box-shadow: 2px 5px 10px 0px #888888;
+  cursor: pointer;
+}
